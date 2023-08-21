@@ -1,0 +1,38 @@
+
+
+
+body {
+    background-color: red;
+}
+
+.container {
+    background-color: plum;
+    height: 1000px;
+}
+
+.logo {
+    height: 40px;
+}
+
+nav {
+    margin: 0;
+}
+
+nav a {
+    transition: all 100ms ease-in-out;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 5px 10px;
+    margin: 10px;
+    line-height: 44px;
+}
+
